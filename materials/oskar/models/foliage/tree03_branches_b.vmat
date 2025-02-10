@@ -1,0 +1,41 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/oskar/models/foliage/tree03_branches_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureTranslucency"		"materials/oskar/models/foliage/tree03_branches_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.500000"
+	"F_RENDER_BACKFACES"		"1"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"Oskar/models/foliage/tree03_branches"
+			"$AlphaTest"		"1"
+			"$AlphaTestReference"		"0.500000"
+			"$nocull"		"1"
+			"$nodecal"		"1"
+			"$FlashlightNoLambert"		"1"
+			"$peter"		"3"
+			"Proxies"
+			{
+				"Sine"
+				{
+					"sineperiod"		"3"
+					"sinemin"		"-2"
+					"sinemax"		"2"
+					"resultVar"		"$peter"
+				}
+				"TextureTransform"
+				{
+					"rotateVar"		"$peter"
+					"resultVar"		"$basetexturetransform"
+				}
+			}
+		}
+	}
+}

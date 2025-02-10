@@ -1,0 +1,7 @@
+importfilelist
+{
+	"file"	"materials\oskar\models\foliage\tree03_branches_a.vmt"
+	"file"	"materials\oskar\models\foliage\tree03_trunk.vmt"
+	"file"	"materials\oskar\models\foliage\tree03_branches_b.vmt"
+	"file"	"materials\oskar\models\foliage\tree03_branches_c.vmt"
+}

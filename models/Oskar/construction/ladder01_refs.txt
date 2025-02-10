@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\oskar\models\construction\ladder01.vmt"
+}

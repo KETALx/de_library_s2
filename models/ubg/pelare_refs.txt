@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\pelare.vmt"
+}

@@ -1,0 +1,24 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/ubg/models/bord03_color.tga"
+	"TextureNormal"		"materials/ubg/models/bord03_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/ubg/models/bord03_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"ubg/models/bord03"
+			"$bumpmap"		"ubg/models/bord03_normal"
+			"model"		"1"
+			"$phong"		"1"
+			"$phongexponent"		"40"
+			"$phongboost"		"12"
+			"$phongfresnelranges"		"[0.05 0.6 1]"
+		}
+	}
+}

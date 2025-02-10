@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\oskar\models\construction\paintstuff01.vmt"
+}

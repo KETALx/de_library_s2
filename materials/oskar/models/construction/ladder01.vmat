@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/oskar/models/construction/ladder01_color.tga"
+	"TextureNormal"		"materials/oskar/models/construction/ladder01_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/oskar/models/construction/ladder01_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"Oskar/models/construction/ladder01"
+			"$bumpmap"		"Oskar/models/construction/ladder01_normal"
+			"$surfaceprop"		"metal"
+			"$phong"		"1"
+			"$phongexponent"		"18"
+			"$phongboost"		"16"
+			"$phongfresnelranges"		"[0.05 0.5 1]"
+		}
+	}
+}

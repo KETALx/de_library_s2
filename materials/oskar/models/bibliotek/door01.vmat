@@ -1,0 +1,23 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/oskar/models/bibliotek/door01_color.tga"
+	"TextureNormal"		"materials/oskar/models/bibliotek/door01_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/oskar/models/bibliotek/door01_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"Oskar/models/bibliotek/door01"
+			"$bumpmap"		"Oskar/models/bibliotek/door01_normal"
+			"$phong"		"1"
+			"$phongexponent"		"10"
+			"$phongboost"		"8"
+			"$phongfresnelranges"		"[0.05 0.5 1]"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/ubg/models/woodlocker_color.tga"
+	"TextureNormal"		"[0.505882 0.501961 1.000000 1.000000]"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/ubg/models/phong_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"ubg/models/woodlocker"
+			"$bumpmap"		"ubg/models/phong_normal"
+			"model"		"1"
+			"$phong"		"1"
+			"$phongexponent"		"30"
+			"$phongboost"		"8"
+			"$phongfresnelranges"		"[0.05 0.6 1]"
+		}
+	}
+}

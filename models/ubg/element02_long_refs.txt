@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\element_klassrum.vmt"
+	"file"	"materials\ubg\models\grupprum_113_props_a.vmt"
+}

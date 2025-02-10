@@ -1,0 +1,18 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"materials/ubg/models/glas_color.tga"
+	"TextureTranslucency"		"[0.121569 0.121569 0.121569 0.000000]"
+	"F_BLEND_MODE"		"1"
+	"legacy_import"
+	{
+		"UnLitGeneric"
+		{
+			"$basetexture"		"ubg/models/glas"
+			"$envmap"		"env_cubemap"
+			"model"		"1"
+			"$translucent"		"1"
+		}
+	}
+}

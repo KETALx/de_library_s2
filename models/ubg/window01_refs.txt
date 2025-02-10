@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\window01.vmt"
+	"file"	"materials\ubg\models\glas.vmt"
+}

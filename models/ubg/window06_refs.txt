@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\drapes.vmt"
+	"file"	"materials\ubg\models\window02.vmt"
+	"file"	"materials\ubg\models\glas.vmt"
+}

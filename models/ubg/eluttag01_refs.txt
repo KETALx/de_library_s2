@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\eluttag01.vmt"
+}

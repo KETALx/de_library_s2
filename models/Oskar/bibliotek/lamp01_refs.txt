@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\oskar\models\bibliotek\lamp01.vmt"
+	"file"	"materials\oskar\models\bibliotek\lamp01_off.vmt"
+}

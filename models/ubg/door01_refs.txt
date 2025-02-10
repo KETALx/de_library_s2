@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\door.vmt"
+	"file"	"materials\ubg\models\doorframe01.vmt"
+	"file"	"materials\ubg\models\door_skin01.vmt"
+}
