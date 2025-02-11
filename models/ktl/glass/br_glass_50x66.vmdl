@@ -1,0 +1,229 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceEmbedded"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "window_broken"
+								children = 
+								[
+									{
+										_class = "Mesh Operation Stack"
+										children = 
+										[
+											{
+												_class = "Voronoi Plane Primitive"
+												children = 
+												[
+													{
+														_class = "Inflate"
+														children = 
+														[
+															{
+																_class = "Select in Box"
+																children = 
+																[
+																	{
+																		_class = "Vertex Sine Wave"
+																		position = [ 0.0, 0.0, 0.0 ]
+																		angle = [ 0.0, 0.0, 0.0 ]
+																		wave_length = [ 0.0, 0.4, 0.4 ]
+																		wave_amplitude = [ 0.0, 1.0, 1.0 ]
+																	},
+																]
+																position = [ 0.0, -0.047012, -0.215666 ]
+																angle = [ 0.0, 0.0, 0.0 ]
+																clear_selection = true
+																select_vertices = true
+																select_edges = false
+																only_open_edges = false
+																box_dimensions = [ 10.0, 39.094025, 74.56868 ]
+																selection_mode = "selection_add"
+															},
+														]
+														position = [ 0.0, 0.0, 0.0 ]
+														angle = [ 0.0, 0.0, 0.0 ]
+														amount = 0.75
+														build_sides = true
+														build_backfaces = true
+														invert_normals = false
+													},
+												]
+												position = [ 0.0, 0.0, 0.0 ]
+												angle = [ 0.0, 0.0, 0.0 ]
+												box_dimensions = [ 0.0, 72.0, 105.0 ]
+												material_name = "workshop/content_examples/breakable_glass/breakable_glass_01_broken.vmat"
+												bone_name = ""
+												select_primitive = true
+												num_points = 64
+												rnd_seed = 2
+												weld_distance = 0.5
+												bias_to_center = 0.1
+												shrink_pieces = 0.0
+												extra_border_points = 1
+												add_center_vert = false
+											},
+											{
+												_class = "Select All"
+												children = 
+												[
+													{
+														_class = "UV Map Planar Custom"
+														position = [ -8.719345, 19.880798, -12.568283 ]
+														angle = [ 0.0, 0.0, 0.0 ]
+														stream_name = "texcoord$0"
+														box_dimensions = [ 0.0, 79.223099, 101.19754 ]
+														zero_unselected = false
+													},
+												]
+												position = [ 0.0, 0.0, 0.0 ]
+												angle = [ 0.0, 0.0, 0.0 ]
+												select_vertices = true
+												select_edges = true
+												select_faces = true
+											},
+											{
+												_class = "Assign Vertex Pivot Data"
+												position = [ 0.0, 0.0, 0.0 ]
+												angle = [ 0.0, 0.0, 0.0 ]
+												output_stream_name = "texcoord$4"
+											},
+										]
+										position = [ 0.0, 0.0, 0.0 ]
+										angle = [ 0.0, 0.0, 0.0 ]
+										stack_instance_name = ""
+										select_all = true
+									},
+								]
+								filename = ""
+								import_scale = 1.0
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = [  ]
+								}
+							},
+							{
+								_class = "PhysicsHullFromPoints"
+								children = 
+								[
+									{
+										_class = "PhysicsHullPoint"
+										position = [ 0.0, -20.293474, -38.544853 ]
+										angle = [ 0.0, 0.0, 0.0 ]
+										scale_xyz = [ 1.0, 1.0, 1.0 ]
+										point_type = "tetra"
+									},
+								]
+								parent_bone = ""
+								surface_prop = "glass"
+								collision_prop = "default_player_movement_exclude"
+								tool_material = ""
+								faceMergeAngle = 20.0
+								maxHullVertices = 32
+								optimization_algorithm = "IFR"
+							},
+						]
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						sound_event_on_spawn = ""
+						spawn_entity = "prop_physics"
+						ragdoll_applies_bind_pose_root = false
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						offset_rotation = [ 0.0, 0.0, 0.0 ]
+						fadetime = 3.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						suppress_creation_on_death = false
+						is_essential_piece = true
+						can_player_pickup_piece = false
+						render_color_mode = "inherit_owner"
+						material_group_mode = "inherit_owner_index"
+						physics_joint_modification_type = "none"
+						manual_mode = false
+						piece_motion_disabled = true
+						piece_health = 0
+						surface_prop_override = ""
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Glass.Window"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							dmg.bullets = -1.0
+							dmg.club = -1.0
+							dmg.explosive = -1.0
+							dmg.fire = -1.0
+							health = 1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "glass"
+						collision_prop = "window"
+						tool_material = ""
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+						optimization_algorithm = "IFR"
+						renderMeshList = [  ]
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "window"
+						filename = "models/ktl/glass/fbx/mesh/base_50x66.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "prop_dynamic"
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}
