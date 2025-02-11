@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file" "materials/skybox/sky_dustrt.vmt"
+	"file" "materials/dev/dev_measuregeneric01b.vmt"
+	"file" "lighting/postprocessing/props_prefab\props_prefab.vpost"
+}

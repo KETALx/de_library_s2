@@ -357,7 +357,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/lamp01_refs/phys/lamp01_phy.dmx"
+						filename = "models/oskar/bibliotek/lamp01_refs/phys/lamp01_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -406,7 +406,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "lamp01_bg_studio_lod0"
-						filename = "/models/Oskar/bibliotek/lamp01_refs/mesh/lamp01_bg_studio_lod0.dmx"
+						filename = "/models/oskar/bibliotek/lamp01_refs/mesh/lamp01_bg_studio_lod0.dmx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -435,7 +435,7 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						animgraph_additive = false
-						source_filename = "models/Oskar/bibliotek/lamp01_refs/anim/_idle_0.dmx"
+						source_filename = "models/oskar/bibliotek/lamp01_refs/anim/_idle_0.dmx"
 						import_bone_scales = false
 						start_frame = -1
 						end_frame = -1
@@ -457,7 +457,7 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						animgraph_additive = false
-						source_filename = "models/Oskar/bibliotek/lamp01_refs/anim/_idle_0.dmx"
+						source_filename = "models/oskar/bibliotek/lamp01_refs/anim/_idle_0.dmx"
 						import_bone_scales = false
 						start_frame = 0
 						end_frame = 0

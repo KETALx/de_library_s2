@@ -1,0 +1,7 @@
+"name_remap_table"
+{
+	"src2filenamechange"
+	{
+		"maps\de_library\props_prefab.vmap"		"maps\de_library\props.vmf"
+	}
+}

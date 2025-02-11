@@ -58,7 +58,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
+						filename = "models/oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -85,7 +85,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
+						filename = "models/oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -112,7 +112,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
+						filename = "models/oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -139,7 +139,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
+						filename = "models/oskar/bibliotek/bookshelf_misc01_refs/phys/bookshelf_misc01_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -166,7 +166,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "bookshelf_misc01_bg_studio_lod0"
-						filename = "/models/Oskar/bibliotek/bookshelf_misc01_refs/mesh/bookshelf_misc01_bg_studio_lod0.dmx"
+						filename = "/models/oskar/bibliotek/bookshelf_misc01_refs/mesh/bookshelf_misc01_bg_studio_lod0.dmx"
 						import_scale = 1.0
 						import_filter = 
 						{

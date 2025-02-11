@@ -194,7 +194,7 @@
 						recenter_on_parent_bone = true
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/Oskar/bibliotek/book_cluster03_refs/phys/book_cluster03_phy.dmx"
+						filename = "models/oskar/bibliotek/book_cluster03_refs/phys/book_cluster03_phy.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -221,7 +221,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "book_cluster03_bg_studio_lod0"
-						filename = "/models/Oskar/bibliotek/book_cluster03_refs/mesh/book_cluster03_bg_studio_lod0.dmx"
+						filename = "/models/oskar/bibliotek/book_cluster03_refs/mesh/book_cluster03_bg_studio_lod0.dmx"
 						import_scale = 1.0
 						import_filter = 
 						{

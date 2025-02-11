@@ -109,7 +109,7 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
-						model = "models/ubg/gibs/bord01b_gib04.vmdl"
+						model = "models/ubg/gibs/bord01a_gib04.vmdl"
 						force_motion_disabled = false
 						health_override = 0
 					},

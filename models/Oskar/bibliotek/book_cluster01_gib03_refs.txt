@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\oskar\models\bibliotek\books.vmt"
+}

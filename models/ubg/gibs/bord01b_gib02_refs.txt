@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\ubg\models\bord01b.vmt"
+}
