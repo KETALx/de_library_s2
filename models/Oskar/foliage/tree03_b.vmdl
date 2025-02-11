@@ -494,7 +494,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "tree03_b_bg_studio_lod0"
-						filename = "/models/oskar/foliage/tree03_b_refs/mesh/tree03_b_bg_studio_lod0.dmx"
+						filename = "models/oskar/foliage/tree03_b_refs/mesh/tree_b_ref_weight.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{

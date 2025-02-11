@@ -38,8 +38,8 @@
 																		_class = "Vertex Sine Wave"
 																		position = [ 0.0, 0.0, 0.0 ]
 																		angle = [ 0.0, 0.0, 0.0 ]
-																		wave_length = [ 0.0, 0.4, 0.4 ]
-																		wave_amplitude = [ 0.0, 1.0, 1.0 ]
+																		wave_length = [ 0.5, 0.2, 0.0 ]
+																		wave_amplitude = [ 0.2, 0.3, 0.0 ]
 																	},
 																]
 																position = [ 0.0, -0.047012, -0.215666 ]
@@ -54,7 +54,7 @@
 														]
 														position = [ 0.0, 0.0, 0.0 ]
 														angle = [ 0.0, 0.0, 0.0 ]
-														amount = 0.75
+														amount = 1.0
 														build_sides = true
 														build_backfaces = true
 														invert_normals = false
@@ -66,9 +66,9 @@
 												material_name = "workshop/content_examples/breakable_glass/breakable_glass_01_broken.vmat"
 												bone_name = ""
 												select_primitive = true
-												num_points = 64
+												num_points = 24
 												rnd_seed = 2
-												weld_distance = 0.5
+												weld_distance = 0.2
 												bias_to_center = 0.1
 												shrink_pieces = 0.0
 												extra_border_points = 1

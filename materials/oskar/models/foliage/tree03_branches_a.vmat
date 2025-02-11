@@ -14,6 +14,9 @@ Layer0
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
+	//---- Vertex Animation ----
+	F_VERTEX_ANIMATION 1 // Simple
+
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
@@ -33,7 +36,7 @@ Layer0
 	//---- Lighting ----
 	g_fTextureRoughnessBrightness "1.000"
 	g_fTextureRoughnessContrast "1.000"
-	TextureRoughness "materials/default/default_rough_s1import.tga"
+	TextureRoughness "[0.721569 0.721569 0.721569 0.000000]"
 
 	//---- Normal Map ----
 	g_fTextureNormalContrast "1.000"
@@ -47,11 +50,22 @@ Layer0
 	g_flAlphaBoostDistance "20000.000"
 	g_flAlphaBoostStrength "3.000"
 	g_flAlphaTestReference "0.500"
-	g_flGrazingAngleMask "0.000"
+	g_flGrazingAngleMask "0.271"
 	TextureTranslucency "materials/oskar/models/foliage/tree03_branches_trans.tga"
 
 	//---- Transmission ----
 	g_bApplyColorCorrectionToTransmissiveColor "0"
+
+	//---- Vertex Animation ----
+	g_flFlutterAmount "0.586"
+	g_flFlutterFalloff "1.000"
+	g_flFlutterNoiseScale "1.000"
+	g_flFlutterSpeed "1.000"
+	g_flSwayAmount "0.523"
+	g_flSwayFalloff "2.009"
+	g_flSwayNoiseScale "1.171"
+	g_flSwaySpeed "1.081"
+	g_flVertexNormalInfluence "0.000"
 
 	//---- Vertex Color ----
 	g_flHeightGradientAmount "0.000"
@@ -84,20 +98,11 @@ Layer0
 		"g_vNoiseUvScale" "[1.000 1.000 1.000]"
 		"g_vNoiseUvSpeed" "[0.250 0.250 0.250]"
 		"TextureTransmissiveColor" ""
-		"g_flFlutterAmount" "0.25"
-		"g_flFlutterFalloff" "1"
-		"g_flFlutterNoiseScale" "1"
-		"g_flFlutterSpeed" "1"
-		"g_flSwayAmount" "0"
-		"g_flSwayFalloff" "1"
-		"g_flSwayNoiseScale" "1"
-		"g_flSwaySpeed" "1"
 		"g_bUseEnvWind" "0"
 		"g_flNoise1MaskFalloff" "1"
 		"g_flNoise1Strength" "0"
 		"g_flNoise2MaskFalloff" "1"
 		"g_flNoise2Strength" "0"
-		"g_flVertexNormalInfluence" "0"
 		"g_vNoise1Scale" "[0.000 0.000 0.000]"
 		"g_vNoise1Speed" "[0.000 0.000 0.000]"
 		"g_vNoise2Scale" "[0.000 0.000 0.000]"
@@ -134,6 +139,12 @@ Layer0
 		}
 		"Transmission"
 		{
+		}
+		"Vertex Animation"
+		{
+			"Sway (Red Channel)" 0
+			"Flutter (Blue Channel)" 0
+			"Vertex Normal Influence" 0
 		}
 		"Vertex Color"
 		{

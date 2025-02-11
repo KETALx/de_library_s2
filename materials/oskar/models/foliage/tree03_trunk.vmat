@@ -1,21 +1,70 @@
-"Layer0"
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
 {
-	"Shader"		"csgo_vertexlitgeneric.vfx"
-	"TextureColor"		"materials/oskar/models/foliage/tree03_trunk_color.tga"
-	"TextureNormal"		"materials/default/default_normal.tga"
-	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
-	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
-	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
-	"SystemAttributes"
+	shader "csgo_vertexlitgeneric.vfx"
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionScale "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/oskar/models/foliage/tree03_trunk_color.tga"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
+	TextureRoughness "materials/default/default_rough_s1import.tga"
+
+	//---- Normal Map ----
+	g_flNormalTexCoordRotation "0.000"
+	g_vNormalTexCoordCenter "[0.500 0.500]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
 	{
-		"PhysicsSurfaceProperties"		"Wood_Solid"
+		PhysicsSurfaceProperties "Wood_Solid"
 	}
-	"legacy_import"
+
+
+	VariableState
 	{
-		"VertexlitGeneric"
+		"Ambient Occlusion"
 		{
-			"$basetexture"		"Oskar/models/foliage/tree03_trunk"
-			"$surfaceprop"		"Wood_Solid"
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
 		}
 	}
 }
