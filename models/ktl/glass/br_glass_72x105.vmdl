@@ -66,7 +66,7 @@
 												material_name = "workshop/content_examples/breakable_glass/breakable_glass_01_broken.vmat"
 												bone_name = ""
 												select_primitive = true
-												num_points = 24
+												num_points = 256
 												rnd_seed = 2
 												weld_distance = 0.2
 												bias_to_center = 0.1
@@ -80,10 +80,10 @@
 												[
 													{
 														_class = "UV Map Planar Custom"
-														position = [ -8.719345, 19.880798, -12.568283 ]
+														position = [ 4.094854, 59.425953, 14.196907 ]
 														angle = [ 0.0, 0.0, 0.0 ]
 														stream_name = "texcoord$0"
-														box_dimensions = [ 0.0, 79.223099, 101.19754 ]
+														box_dimensions = [ 0.0, 285.078949, 387.670868 ]
 														zero_unselected = false
 													},
 												]
