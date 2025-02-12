@@ -1,3 +1,0 @@
-D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_library_s2\materials\skybox\sky_dustrt.vmat
-D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_library_s2\materials\dev\dev_measuregeneric01b.vmat
-D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_library_s2\lighting\postprocessing\props_prefab\props_prefab.vpost
