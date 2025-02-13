@@ -188,6 +188,32 @@
 							spawn_motion_disabled = false
 						}
 					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 50.0
+							burst_randomize = 50.0
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 150.0
+							burst_randomize = 50.0
+						}
+					},
 				]
 			},
 			{
