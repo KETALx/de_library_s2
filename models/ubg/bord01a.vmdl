@@ -190,28 +190,15 @@
 					},
 					{
 						_class = "BreakCommand"
-						game_class = "break_twist_pieces"
+						game_class = "break_uniform_burst"
 						game_keys = 
 						{
 							offset = [ 0.0, 0.0, 0.0 ]
 							attachment_point = ""
-							center_on_damage_point = true
+							center_on_damage_point = false
 							limit_to_piece = ""
-							burst_scale = 50.0
-							burst_randomize = 50.0
-						}
-					},
-					{
-						_class = "BreakCommand"
-						game_class = "break_flip_pieces"
-						game_keys = 
-						{
-							offset = [ 0.0, 0.0, 0.0 ]
-							attachment_point = ""
-							center_on_damage_point = true
-							limit_to_piece = ""
-							burst_scale = 150.0
-							burst_randomize = 50.0
+							burst_scale = 65.0
+							burst_randomize = 10.0
 						}
 					},
 				]
@@ -223,9 +210,9 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = ""
-						mass_override = 5.0
-						inertia_scale = 1.0
-						linear_damping = 0.0
+						mass_override = 0.5
+						inertia_scale = 5.0
+						linear_damping = 1.0
 						angular_damping = 0.0
 						use_mass_center_override = false
 						mass_center_override = [ 0.0, 0.0, 0.0 ]
@@ -240,7 +227,7 @@
 						_class = "PhysicsHullFile"
 						name = "bord01a_phys_0_mesh"
 						parent_bone = ""
-						surface_prop = "wood"
+						surface_prop = "Wood_Furniture"
 						collision_prop = "default"
 						tool_material = ""
 						recenter_on_parent_bone = true
