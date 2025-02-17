@@ -1,24 +1,71 @@
-"Layer0"
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
 {
-	"Shader"		"csgo_vertexlitgeneric.vfx"
-	"TextureColor"		"materials/ubg/models/bord01a_color.tga"
-	"TextureNormal"		"materials/ubg/models/bord01a_normal.tga"
-	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
-	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
-	"TextureRoughness"		"materials/ubg/models/bord01a_normal_rough.tga"
-	"F_SPECULAR_DIRECT"		"1"
-	"F_SPECULAR_INDIRECT"		"1"
-	"legacy_import"
+	shader "csgo_vertexlitgeneric.vfx"
+
+	//---- Direct/Per-Pixel Specular - S1 $phong ----
+	F_SPECULAR_DIRECT 1
+
+	//---- Indirect/Cubemap Specular - S1 $envmap ----
+	F_SPECULAR_INDIRECT 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionScale "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/ubg/models/bord01a_color.tga"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
+	TextureRoughness "[0.270588 0.270588 0.270588 0.000000]"
+
+	//---- Normal Map ----
+	g_flNormalTexCoordRotation "0.000"
+	g_vNormalTexCoordCenter "[0.500 0.500]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/ubg/models/bord01a_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+
+	VariableState
 	{
-		"VertexLitGeneric"
+		"Ambient Occlusion"
 		{
-			"$basetexture"		"ubg/models/bord01a"
-			"$bumpmap"		"ubg/models/bord01a_normal"
-			"model"		"1"
-			"$phong"		"1"
-			"$phongexponent"		"40"
-			"$phongboost"		"12"
-			"$phongfresnelranges"		"[0.05 0.6 1]"
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
 		}
 	}
 }

@@ -1,0 +1,88 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_projected_decals.vfx"
+
+	//---- Decal ----
+	F_ALPHA_MODE 1 // Cutoff
+	F_CUTOFF_ANGLE 1
+	F_TRIPLANAR_MAPPING 1
+
+	//---- Fast, Lower Quality ----
+	F_FASTAPPROX 1
+
+	g_vShrinkWrapBB_01 "[0.000 0.000 0.000 1.000]"
+	g_vShrinkWrapBB_23 "[1.000 1.000 1.000 0.000]"
+
+	//---- Alpha ----
+	g_flAlphaCutoffSoftness "0.078"
+
+	//---- Color ----
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Decal ----
+	g_flCutoffAngle "180.000"
+	g_flCutoffAngleSoftness "45.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flGlossiness "0.685"
+
+	//---- PBR ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureMetalness "materials/default/default_metal.tga"
+
+	//---- Translucent ----
+	TextureTranslucency "materials/fluidsplat_a_noisy_trans_tga_c46d6803.png"
+
+	UnusedVariables
+	{
+		"g_flHeightMapScale" "0.02"
+		"g_nLODThreshold" "4"
+		"g_nMaxSamples" "32"
+		"g_nMinSamples" "8"
+		"TextureHeight" ""
+		"g_flDecalAgeTimer" "0"
+		"TextureNormal" ""
+		"TextureRoughness" ""
+		"g_flDecalZAlphaScale" "0.01"
+		"g_flAdditiveAmount" "1"
+		"g_flEmissiveBrightness" "3.791"
+		"g_vEmissiveTint" "[1.000000 0.933333 0.827451 0.000000]"
+	}
+
+
+	VariableState
+	{
+		""
+		{
+		}
+		"Alpha"
+		{
+		}
+		"Color"
+		{
+		}
+		"Decal"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Gloss" 0
+		}
+		"PBR"
+		{
+			"Metalness" 0
+			"Ambient Occlusion" 0
+		}
+		"Translucent"
+		{
+		}
+	}
+}
