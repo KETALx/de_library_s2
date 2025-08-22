@@ -1,7 +1,6 @@
 > [!WARNING]  
 > This repository is still work in progress
 
-```maps/de_library/de_library_rainy.vmap``` - personal remake of map in a rainy style (WIP)  
 ```maps/de_library/de_library_se.vmap``` - an attempt to declutter some areas  
 ```maps/de_library/de_library_s2_backup.vmap``` - ported mesh with slight cleanup   
 
