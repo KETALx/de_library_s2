@@ -31,9 +31,9 @@
 						game_class = "ao_proxy_box"
 						game_keys = 
 						{
-							bonename = "static_prop"
-							dimensions = [ 5.28992, 35.8997, 105.617 ]
-							offset_origin = [ 0.22902, 15.5482, 48.7781 ]
+							bonename = null
+							dimensions = [ 10.0, 40.4998, 106.085 ]
+							offset_origin = [ -44.908, 15.25, 48.0413 ]
 							offset_angles = [ 0.0, 0.0, 0.0 ]
 						}
 					},
@@ -47,9 +47,9 @@
 						_class = "PhysicsBodyMarkup"
 						target_body = "static_prop"
 						tag = ""
-						mass_override = 50.0
+						mass_override = 5.0
 						inertia_scale = 1.0
-						linear_damping = 5.0
+						linear_damping = 0.0
 						angular_damping = 0.0
 						linear_drag = 1.0
 						angular_drag = 1.0
@@ -63,15 +63,14 @@
 				children = 
 				[
 					{
-						_class = "PhysicsHullFromRender"
+						_class = "PhysicsShapeBox"
 						parent_bone = "static_prop"
 						surface_prop = "default"
 						collision_prop = "default"
 						tool_material = ""
-						renderMeshList = [  ]
-						faceMergeAngle = 20.0
-						maxHullVertices = 32
-						optimization_algorithm = "IFR"
+						origin = [ -44.941818, 15.702131, 48.981964 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.0, 32.404263, 98.963928 ]
 					},
 				]
 				leave_body_collision_unmodified = false
@@ -85,7 +84,7 @@
 						name = "placementOrigin"
 						parent_bone = "static_prop"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
-						relative_angles = [ -0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -97,7 +96,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/ktl/gibs/bookshelf/panel_left.fbx"
+						filename = "models/ktl/gibs/bookshelf/panel_right.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{

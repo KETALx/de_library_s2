@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
 {
 	rootNode = 
 	{
@@ -12,10 +12,13 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = ""
+						tag = ""
 						mass_override = 1.0
 						inertia_scale = 1.0
 						linear_damping = 0.0
 						angular_damping = 0.0
+						linear_drag = 1.0
+						angular_drag = 1.0
 						use_mass_center_override = false
 						mass_center_override = [ 0.0, 0.0, 0.0 ]
 					},
@@ -43,6 +46,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -70,6 +74,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -97,6 +102,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -124,6 +130,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -151,6 +158,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -178,6 +186,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -205,6 +214,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -232,6 +242,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -259,6 +270,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -286,6 +298,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -326,22 +339,351 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = true
 						ragdoll_applies_bind_pose_root = true
-						collision_group = "default"
+						collision_group = "debris"
 						offset = [ 0.0, 0.0, 0.0 ]
 						offset_rotation = [ 0.0, 0.0, 0.0 ]
-						fadetime = 20.0
+						fadetime = 60.0
 						fade_min_dist = 0.0
 						fade_max_dist = 0.0
 						name_mode = "none"
 						random_spawn_chance = 1.0
 						suppress_creation_on_death = false
-						is_essential_piece = false
+						is_essential_piece = true
 						can_player_pickup_piece = false
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ktl/gibs/bookshelf/shelf_panel_left.vmdl"
+						force_motion_disabled = false
+						health_override = -1
+					},
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						sound_event_on_spawn = ""
+						spawn_entity = "prop_physics"
+						enable_collision_with_parent = true
+						ragdoll_applies_bind_pose_root = true
+						collision_group = "debris"
+						offset = [ -46.0, 0.0, 0.0 ]
+						offset_rotation = [ 0.0, 0.0, 0.0 ]
+						fadetime = 60.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						suppress_creation_on_death = false
+						is_essential_piece = true
+						can_player_pickup_piece = false
+						render_color_mode = "inherit_owner"
+						material_group_mode = "inherit_owner_name"
+						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
+						model = "models/ktl/gibs/bookshelf/shelf_panel_left.vmdl"
+						force_motion_disabled = false
+						health_override = -1
+					},
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						sound_event_on_spawn = ""
+						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
+						ragdoll_applies_bind_pose_root = true
+						collision_group = "default"
+						offset = [ 0.0, 0.0, 10.0 ]
+						offset_rotation = [ 0.0, 0.0, 0.0 ]
+						fadetime = 20.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 0.9
+						suppress_creation_on_death = false
+						is_essential_piece = true
+						can_player_pickup_piece = false
+						render_color_mode = "inherit_owner"
+						material_group_mode = "inherit_owner_name"
+						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
+						model = "models/ktl/gibs/bookshelf/shelf_edges.vmdl"
+						force_motion_disabled = false
+						health_override = -1
+					},
+					{
+						_class = "Folder"
+						name = "shelfs"
+						children = 
+						[
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 17.0, 26.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 2.0, 26.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 2.0, 43.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 17.0, 43.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 2.0, 60.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 17.0, 60.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 2.0, 76.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+							{
+								_class = "BreakPieceExternal"
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								sound_event_on_spawn = ""
+								spawn_entity = "prop_physics"
+								enable_collision_with_parent = false
+								ragdoll_applies_bind_pose_root = true
+								collision_group = "default"
+								offset = [ 0.0, 17.0, 76.0 ]
+								offset_rotation = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 0.9
+								suppress_creation_on_death = false
+								is_essential_piece = true
+								can_player_pickup_piece = false
+								render_color_mode = "inherit_owner"
+								material_group_mode = "inherit_owner_name"
+								physics_joint_modification_type = "none"
+								specific_physics_body_to_replace = ""
+								massoverride = -1.0
+								model = "models/ktl/gibs/bookshelf/shelf_middle.vmdl"
+								force_motion_disabled = false
+								health_override = -1
+							},
+						]
+					},
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						sound_event_on_spawn = ""
+						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
+						ragdoll_applies_bind_pose_root = true
+						collision_group = "default"
+						offset = [ 0.0, 0.0, 93.0 ]
+						offset_rotation = [ 0.0, 0.0, 0.0 ]
+						fadetime = 20.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 0.9
+						suppress_creation_on_death = false
+						is_essential_piece = true
+						can_player_pickup_piece = false
+						render_color_mode = "inherit_owner"
+						material_group_mode = "inherit_owner_name"
+						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
+						model = "models/ktl/gibs/bookshelf/shelf_edges.vmdl"
 						force_motion_disabled = false
 						health_override = -1
 					},
@@ -364,8 +706,29 @@
 							dmg.club = -1.0
 							dmg.explosive = -1.0
 							dmg.fire = -1.0
-							health = -1.0
+							health = 200.0
 							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_disable_collisions_with_player"
+						game_keys = 
+						{
+							limit_to_piece = ""
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ -20.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 374.0
+							burst_randomize = 43.2
 						}
 					},
 				]
