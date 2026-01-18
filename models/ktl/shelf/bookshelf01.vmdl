@@ -308,6 +308,146 @@
 							]
 						}
 					},
+					{
+						_class = "PhysicsHullFile"
+						name = "book_fullshelf_phys_4_mesh"
+						parent_bone = ""
+						surface_prop = "cardboard"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/oskar/bibliotek/book_fullshelf_refs/phys/book_fullshelf_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"book_fullshelf_phys_4_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "book_fullshelf_phys_3_mesh"
+						parent_bone = ""
+						surface_prop = "cardboard"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/oskar/bibliotek/book_fullshelf_refs/phys/book_fullshelf_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"book_fullshelf_phys_3_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "book_fullshelf_phys_2_mesh"
+						parent_bone = ""
+						surface_prop = "cardboard"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/oskar/bibliotek/book_fullshelf_refs/phys/book_fullshelf_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"book_fullshelf_phys_2_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "book_fullshelf_phys_1_mesh"
+						parent_bone = ""
+						surface_prop = "cardboard"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/oskar/bibliotek/book_fullshelf_refs/phys/book_fullshelf_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"book_fullshelf_phys_1_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "book_fullshelf_phys_0_mesh"
+						parent_bone = ""
+						surface_prop = "cardboard"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/oskar/bibliotek/book_fullshelf_refs/phys/book_fullshelf_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"book_fullshelf_phys_0_mesh",
+							]
+						}
+					},
 				]
 				leave_body_collision_unmodified = false
 			},
@@ -325,6 +465,10 @@
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "Prefab"
+						target_file = "models/Oskar/bibliotek/book_fullshelf.vmdl"
 					},
 				]
 			},
